@@ -46,7 +46,7 @@ void sendDataID(String id) {
   sendCommand(cmd,1000,DEBUG);
   delay(5000);
   
-  String cmd2 = "GET /IMKA/server.php?apples="; // Link ke skrip PHP                    
+  String cmd2 = "GET /IMKA/server.php?boar="; // Link ke skrip PHP                    
   cmd2 += id;  
   cmd2 += " HTTP/1.1\r\n";
   cmd2 += "Host: 192.168.0.125\r\n\r\n\r\n"; // Host
